@@ -18,7 +18,7 @@ body
 }
 .navbar-brand img 
 {
-    height: 40px;
+    height: 45px;
     padding-left: 30px;
 }
 .navbar-nav li
@@ -87,6 +87,9 @@ body
     color: #fff;
     font-size: 42px;
 }
+.carousel-item {
+  height: 50%;
+}
 /*----Services----*/
 #services
 {
@@ -134,7 +137,7 @@ body
     margin-top: 20px;
     color: #ccc;
 }
-.services .col-md-3:hover {
+.services .col-sm:hover {
     background: #007bff;
     cursor: pointer;
     transition: 0.7s;
